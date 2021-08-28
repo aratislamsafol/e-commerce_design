@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Shoping Cart</title>
+</head>
+<body>
+    <section class="header">
+        <div class="header_add">
+            <span>Free shipping for standard order over $100</span>
+        </div>
+        <div class="account">
+            <ul>
+                <li><a href="#">Help & FAQ</a></li>
+                <li><a href="#">My Account</a></li>
+                <li><a href="#">EN</a></li>
+                <li><a href="#">USD</a></li>
+            </ul>
+        </div>
+    </section>
+    <section class="navbar">
+        <div class="navbar_flex">
+            <div class="logo">
+                <img src="assets/img/download (1).webp" alt="">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="e_commerce.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="shopping_cart.html">Feature</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="action">
+                <a href=""><i class="fas fa-search"></i></a>
+                <a href=""><i class="fas fa-shopping-cart"></i></a>
+                <a href=""><i class="far fa-heart"></i></a>
+            </div>
+        </div>
+    </section>
+    <section class="shopping_chart">
+        <div class="wrapper2">
+            <span><a href="#">Home</a> > Shopping Chart</span>
+            <div class="shopping_row">
+                <div class="shop_col1">
+                    <table id="shoping_product">
+                        <tr>
+                            <th>Product</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Total</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="col-1">
+                                <img src="assets/img/tshhhirt.webp" alt="product_image">
+                                <p>Fresh Strawberries</p>
+                                </div>
+                            </td>
+                            <td>$ 36.00</td>
+                            <td>1</td>
+                            <td>$ 36.00</td>
+                        </tr>
+                        <tr>
+                            <td><div class="col-1">
+                                <img src="assets/img/xproduct-detail-02.jpg.pagespeed.ic.1bDtXoN8v6.webp" alt="product_image">
+                                <p>	Lightweight Jacket</p>
+                            </div></td>
+                            <td>$ 36.00</td>
+                            <td>1</td>
+                            <td>$ 36.00</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="checkout_action">
+                                    <input type="text" id="fname" placeholder="Coupon Code" name="fname">
+                                </div>
+                            </td>
+                            <td><button class="shop_button" name="cupon_button">APPLY COUPON</button></td>
+                            <td><button class="shop_button" name="update_button">UPDATE CART</button></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="shop_col2">
+                   <table>
+                       <tr>
+                           <h3 class="cart_head">Cart Totals</h3>
+                           <h4 class="cart_sub">Subtotal:$79.65</h4>
+                       </tr>
+                       <tr>
+                          <div class="border"></div>
+                       </tr>
+                        <tr>
+                            <div class="cart_flex">
+                                <div class="left_cart">
+                                    <h4>Shipping:</h4>
+                                </div>
+                                <div class="right_cart">
+                                    <p>There are no shipping methods available. Please double check your address, or contact us if you need any help.</p>
+                                    <p class="cal_ship">CALCULATE SHIPPING</p>
+                                    <select id="shipping">
+                                        <option value="volvo">Select Country</option>
+                                        <option value="volvo">US</option>
+                                        <option value="saab">UK</option>
+                                        <option value="opel">Bangladesh</option>
+                                        <option value="audi">Finland</option>
+                                      </select>
+                                    <input type="text" class="r_cart_input" placeholder="State/Country">
+                                    <input type="text" class="r_cart_input" placeholder="Postcode/Zip">
+                                    <button type="submit" class="update_btn">UPDATE TOTALS</button>
+                                </div>
+                            </div>  
+                        </tr>
+                        <tr>
+                            <div class="border"></div>
+                         </tr>
+                         <tr>
+                            <div class="cart_flex">
+                                <div class="left_cart">
+                                    <h4>Total:</h4>
+                                </div>
+                                <div class="right_cart">
+                                   <h4>$79.65</h4>
+                                </div>
+                            </div>  
+                        </tr>
+                        <tr>
+                            <button type="submit" class="cart_full_button">PROcced to checkout</button>
+                        </tr>
+                   </table>
+                   
+                </div>
+                
+            </div>
+        </div>
+        
+    </section>
+    <div class="footer">
+        <div class="footer_row">
+            <div class="footer-col">
+                <h2>CATEGORIES</h2>
+                <ul>
+                    <li><a href="#">Women</a></li>
+                    <li><a href="#">Men</a></li>
+                    <li><a href="#">Shoes</a></li>
+                    <li><a href="#">Watches</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>HELP</h2>
+                <ul>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Returns
+                    </a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>GET IN TOUCH</h2>
+                <p>Any questions? Let us know in store at 8th<br>
+                    floor, 379 Hudson St, New York, NY 10018 or<br>
+                    call us on (+1) 96 716 6879
+                </p>
+                <ul class="icon">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>NEWSLETTER</h2>
+                <input class="input1" type="text" name="email" placeholder="email@example.com">
+                <div class="border_input"></div>
+                <a  type="submit"  class="btn_submit2" href="#">SUBSCRIBE</a>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/all.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/fontawesome.min.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
