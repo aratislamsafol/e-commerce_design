@@ -77,10 +77,10 @@
     color:#656565;
 }
 
-.banner .item img{
+/* .banner .item img{
     height: 550px;
     width: cover;
-}
+} */
 
 .banner{
     position: relative;
@@ -627,13 +627,13 @@
     width: 100%;
     position:relative;
 }
-.banner img{
+/* .banner img{
     position: absolute;
     height: 100%;
     width: 100%;
     top:0;
     left:0;
-}
+} */
 .banner_blog{
     position: absolute;
     top: 40%;
