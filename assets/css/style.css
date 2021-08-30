@@ -627,6 +627,7 @@
     width: 100%;
     position:relative;
 }
+
 /* .banner img{
     position: absolute;
     height: 100%;
@@ -634,6 +635,7 @@
     top:0;
     left:0;
 } */
+
 .banner_blog{
     position: absolute;
     top: 40%;
@@ -983,6 +985,7 @@
     margin-top: 6%;
     margin-left: 8%;
     padding-left: 4%;
+    border: none;
     border-radius: 4px;
 }
 
@@ -992,6 +995,7 @@
     height: 200px;
     padding: 1%;
     box-sizing: border-box;
+    border: none;
     border-radius: 4px;
     resize: none;
     margin-left: 8%;
@@ -1001,6 +1005,7 @@
     color: white;
     background-color: #343434;
     margin-top: 20px;
+    border: none;
     border-radius: 25px;
     margin-left: 8%;
 }
